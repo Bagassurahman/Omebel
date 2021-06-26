@@ -1,0 +1,12 @@
+.bg{
+    background-image: url(../../assets/images/bgmask.png);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+}

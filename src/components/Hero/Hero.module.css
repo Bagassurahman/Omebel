@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+.jumbotron{
+    background: none;
+}
+.title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 80px;
+}
+.desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+}
+.btn{
+    width: 154px;
+    height: 48px;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    background: #F48C06;
+    color:white;
+}

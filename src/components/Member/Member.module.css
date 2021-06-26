@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+.cards{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: none;
+}
+.img{
+    margin-left: -60px;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.15));
+}
+.jumbotron{
+    background: #F9FAFC;
+}
+.title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+}
+.desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+.sum{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+}

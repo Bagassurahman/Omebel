@@ -1,0 +1,15 @@
+.hr{
+    content: "";
+    background: white;
+    border-radius: 20px;
+    width: 80%;
+    height: 1px;
+    position: absolute;
+    align-items: center;
+}
+.a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
