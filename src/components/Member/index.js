@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from 'prop-types';
 import { Container, Jumbotron, Row, Col, Card } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
 import Img from '../../assets/images/BG.png'
 import styles from './Member.module.css';
 

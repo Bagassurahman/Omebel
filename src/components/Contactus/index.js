@@ -1,9 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from 'prop-types';
-import { Navbar, Nav, Form, Button, Modal, Container, Card, Row, Col } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
-import Logo from '../../assets/images/Logo.png'
+import { Form, Button, Container, Row, Col } from "react-bootstrap";
 import styles from './Contactus.module.css';
 
 const Contactus = ({ show, handleShow, handleClose }) => {

@@ -1,8 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from 'prop-types';
-import { Container, Jumbotron, Row, Col, Card } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import Investasi from '../../assets/images/investasi.png'
 import Edukasi from '../../assets/images/edukasi.png'
 import Market from '../../assets/images/market.png'

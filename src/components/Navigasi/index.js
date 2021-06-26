@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from 'prop-types';
-import { Navbar, Nav, Form, Button, Modal, Container } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
+import { Navbar, Nav, Button, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Logo from '../../assets/images/Logo.png'
 import styles from './Navigasi.module.css';
 

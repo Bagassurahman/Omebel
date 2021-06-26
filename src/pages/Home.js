@@ -1,5 +1,4 @@
 import "./Home.css";
-import { Navbar, Nav, Form, Button, Modal, Container } from "react-bootstrap";
 import Navigasi from '../components/Navigasi';
 import Hero from '../components/Hero';
 import Member from '../components/Member';

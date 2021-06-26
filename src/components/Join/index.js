@@ -1,8 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from 'prop-types';
-import { Container, Jumbotron, Row, Col, Button, InputGroup, FormControl } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
+import { Container, Row, Col, Button, InputGroup, FormControl } from "react-bootstrap";
 import mail from '../../assets/images/mail.png'
 
 // import Edukasi from '../../assets/images/edukasi.png'

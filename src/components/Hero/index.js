@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from 'prop-types';
 import { Container, Jumbotron, Row, Col } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
 import Img from '../../assets/images/jmb.png'
 import styles from './Hero.module.css';
 

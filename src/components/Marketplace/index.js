@@ -1,8 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from 'prop-types';
-import { Container, Jumbotron, Row, Col, Card } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import meja from '../../assets/images/meja.png'
 import kursi from '../../assets/images/kursi.png'
 import lemari from '../../assets/images/lemari.png'

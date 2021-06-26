@@ -1,12 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Jumbotron, Row, Col, Button } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
+import { Container, Jumbotron, Row, Col } from "react-bootstrap";
 import Umkm1 from '../../assets/images/umkm1.png';
 import Umkm2 from '../../assets/images/umkm2.png';
 import Umkm3 from '../../assets/images/umkm3.png';
-import Bginvest from '../../assets/images/bg_invest.png';
 
 import styles from './Choose.module.css';
 

@@ -1,13 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from 'prop-types';
-import { Container, Jumbotron, Row, Col, Card } from "react-bootstrap";
-import { NavLink, Link } from "react-router-dom";
+import { Container, } from "react-bootstrap";
 import Logo from '../../assets/images/Logo_white.png'
 
 import styles from './Footer.module.css';
 
-const Footer = props => {
+const Footer = ({ show, handleShow, handleClose }) => {
     return (
         <footer className={`text-center text-white`} style={{ backgroundColor: "#39414E", backgroundSize:"cover" }}>
             <Container className={`pt-5`}>
@@ -89,7 +88,9 @@ const Footer = props => {
 };
 
 Footer.propTypes = {
-    
+    show: PropTypes.bool,
+    handleShow: PropTypes.func,
+    handleClose: PropTypes.func
 };
 
 export default Footer;
